@@ -1,8 +1,9 @@
 export LANG=en_US.UTF-8
 
 # PATHS 
-export PATH="$PATH:/opt/metasploit-framework/bin/"
 export PATH="/Applications/Docker.app/Contents/Resources/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$PATH:/opt/metasploit-framework/bin/"
 export PATH="$PATH:/Users/dude/.dotnet/tools"
 
 # PYENV
