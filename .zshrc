@@ -18,6 +18,8 @@ eval "$(rbenv init -)"
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
+export PURE_PROMPT_SYMBOL="\$"
+
 
 # Case-insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
